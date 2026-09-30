@@ -18,11 +18,11 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
  
- st.subheader("Primera app hecha (vacia)")
- image = Image.open('vacio app1.jpg')
+ st.subheader("App de frutas")
+ image = Image.open('Frutas.jpg')
  st.image(image, width=190)
  st.write("En la siguiente enlace usaremos una de las aplicaciones creadas en streamlit") 
- url = "https://programacionavanzada-ahrbmw698grjujyep5zroa.streamlit.app/"
+ url = "https://programacion-avanzada-actividad-clase-jq6yobt3sfba2urcfygbb4.streamlit.app/"
  st.write(f"App #1: [Enlace]({url})")
 
  st.subheader("Reconocimiento de Objetos")
