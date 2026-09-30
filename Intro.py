@@ -19,10 +19,10 @@ col1, col2, col3 = st.columns(3)
 with col1:
  
  st.subheader("Primera app hecha (vacia)")
- image = Image.open('txt_to_audio2.png')
+ image = Image.open('vacio app1.jpg')
  st.image(image, width=190)
- st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
- url = "https://imultimod.streamlit.app/"
+ st.write("En la siguiente enlace usaremos una de las aplicaciones creadas en streamlit") 
+ url = "https://programacionavanzada-ahrbmw698grjujyep5zroa.streamlit.app/"
  st.write(f"Texto a voz: [Enlace]({url})")
 
  st.subheader("Reconocimiento de Objetos")
