@@ -32,12 +32,12 @@ with col1:
  url = "https://programacion-actividad-2-3rztfuvzjgzv6dazscpbsf.streamlit.app/"
  st.write(f"App #2: [Enlace]({url})")
 
- st.subheader("Entrenando Modelos")
+ st.subheader("Detector de anomalias")
  image = Image.open('OIG5.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ url = "https://programacion-avanzada-actividad-3-ipyiwyybco2ednwtk7babr.streamlit.app/"
+ st.write(f"App #3: [Enlace]({url})")
 
 with col2: 
  st.subheader("Conversión de voz a texto")
@@ -45,21 +45,21 @@ with col2:
  st.image(image, width=200)
  st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
  url = "https://traductorw.streamlit.app/"
- st.write(f"Voz a texto: [Enlace]({url})")
+ st.write(f"App #4: [Enlace]({url})")
 
  st.subheader("Análisis de Datos")
  image = Image.open('data_analisis.png')
  st.image(image, width=190)
  st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
  url = "https://dataagente.streamlit.app/"
- st.write(f"Datos: [Enlace]({url})")
+ st.write(f"App # 5: [Enlace]({url})")
 
  st.subheader("Trasnscriptor Audio y Video")
  image = Image.open('OIG3.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
  url = "https://transcript-whisper.streamlit.app/"
- st.write(f"Transcriptor: [Enlace]({url})")
+ st.write(f"App #6: [Enlace]({url})")
 
 
 with col3: 
@@ -68,20 +68,20 @@ with col3:
  st.image(image, width=190)
  st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
  url = "https://chatpdf-cc.streamlit.app/"
- st.write(f"RAG: [Enlace]({url})")
+ st.write(f"App #7: [Enlace]({url})")
 
  st.subheader("Análisis de Imagen")
  image = Image.open('OIG4.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
  url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+ st.write(f"App #8: [Enlace]({url})")
  
  st.subheader("Sistema Ciberfísico")
  image = Image.open('OIG6.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
  url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+ st.write(f"App #9: [Enlace]({url})")
 
 
