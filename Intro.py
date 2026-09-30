@@ -3,17 +3,17 @@ from PIL import Image
 st.title("Aplicaciones de Inteligencia Artificial.")
 
 with st.sidebar:
-  st.subheader("Aplicaciones con Inteligencia Artificial.")
+  st.subheader("Aplicaciones de streamlit.")
   parrafo = (
-    "La inteligencia artificial permite mejorar la toma de decisiones con el uso de datos, "
-    "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real, lo que "
-    "resulta en una mayor eficiencia y precisión en diversos campos."
+    "Los aprendizajes realizados en computacion avanzada "
+    "se pueden ver reflejados en las apps que se encuentran en esta pagina "
+   
   )
   st.write(parrafo)
 
-url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
-st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
-st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
+url_streamlit="https://share.streamlit.io/"
+st.subheader("En el siguiente enlace puedes encontrar las apps hechas en streamlit")
+st.write(f"Enlace para apps: [Enlace]({url_streamlit})")
 col1, col2, col3 = st.columns(3)
 
 with col1:
