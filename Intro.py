@@ -84,14 +84,14 @@ with col3:
     st.write(f"App #8: [Enlace]({url})")
 
     st.subheader("Sensasion termica")
-    image = Image.open('sensacion termica.png')
+    image = Image.open('sensasion termica - copia.png')
     st.image(image, width=200)
     st.write("En la siguiente enlace veremos el predictor de sensasion termica.")
     url = "https://prog-act-9-kaujppc44xbqjer5qnwc5c.streamlit.app/"
     st.write(f"App #9: [Enlace]({url})")
 
     st.subheader("Regresion logistica")
-    image = Image.open('regresion logistica.png')
+    image = Image.open('regresion logistica - copia.png')
     st.image(image, width=190)
     st.write("En la siguiente veremos una aplicación de regresion logistica.")
     url = "https://prog-sesion-11-oj9mtmfymjqfwwqzsuyixg.streamlit.app/"
