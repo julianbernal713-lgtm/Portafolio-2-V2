@@ -40,48 +40,64 @@ with col1:
  st.write(f"App #3: [Enlace]({url})")
 
 with col2: 
- st.subheader("Conversión de voz a texto")
+ st.subheader("Datos:preparacion y estructura")
  image = Image.open('OIG8.jpg')
  st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
- url = "https://traductorw.streamlit.app/"
+ st.write("En la siguiente veremos una aplicación que usa Data sets para entender, limpiar y estructurar los datos disponibles.") 
+ url = "https://programacion-act-4-jdbxkux2k6dmuhb6lbesxh.streamlit.app/"
  st.write(f"App #4: [Enlace]({url})")
 
- st.subheader("Análisis de Datos")
+ st.subheader("App cornare: nivel del agua")
  image = Image.open('data_analisis.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
- url = "https://dataagente.streamlit.app/"
+ st.write("En la siguiente enlace veremos la app de cornare donde se pueden analizar datos sobre el nivel del agua segun la estacion.") 
+ url = "https://prog-act-5-jbq8a3uusg953xty9o7whr.streamlit.app/"
  st.write(f"App # 5: [Enlace]({url})")
 
- st.subheader("Trasnscriptor Audio y Video")
+ st.subheader("Regresion")
  image = Image.open('OIG3.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
- url = "https://transcript-whisper.streamlit.app/"
+ st.write("En la siguiente enlace veremos la regresion y sus conceptos clave.") 
+ url = "https://prog-act-6-iuftpuv6jxtxxwfme75hx2.streamlit.app/"
  st.write(f"App #6: [Enlace]({url})")
 
 
 with col3: 
- st.subheader("Generación en Contexto")
+ st.subheader("Series de tiempo")
  image = Image.open('Chat_pdf.png')
  st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
- url = "https://chatpdf-cc.streamlit.app/"
+ st.write("En la siguiente veremos una aplicación que usa series de tiempo.") 
+ url = "https://prog-avanzada-act-7-4abkehuwn887pxoprmw8ax.streamlit.app/"
  st.write(f"App #7: [Enlace]({url})")
 
- st.subheader("Análisis de Imagen")
+ st.subheader("Pronostico cornare")
  image = Image.open('OIG4.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
- url = "https://vision2-gpt4o.streamlit.app/"
+ st.write("En el siguiente enlace veremos la app para predecir la calidad del aire.") 
+ url = "https://prog-act-8-qubkilwwfvmmqf3yqtd2vu.streamlit.app/"
  st.write(f"App #8: [Enlace]({url})")
  
- st.subheader("Sistema Ciberfísico")
+ st.subheader("Sensasion termica")
  image = Image.open('OIG6.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
+ st.write("En la siguiente enlace veremos el predictor de sensasion termica.") 
+ url = "https://prog-act-9-kaujppc44xbqjer5qnwc5c.streamlit.app/"
  st.write(f"App #9: [Enlace]({url})")
+
+with col4: 
+ st.subheader("Regresion logistica")
+ image = Image.open('Chat_pdf.png')
+ st.image(image, width=190)
+ st.write("En la siguiente veremos una aplicación de regresion logistica.") 
+ url = "https://prog-sesion-11-oj9mtmfymjqfwwqzsuyixg.streamlit.app/"
+ st.write(f"App #10: [Enlace]({url})")
+
+ st.subheader("KNN Agrosavia")
+ image = Image.open('OIG4.jpg')
+ st.image(image, width=200)
+ st.write("En el siguiente enlace veremos la app que explora KNN con datos de suelos de AGROSAVIA.") 
+ url = "https://computacion-avanzada-sesion-13-avrj5spayb9r8diappgl8ty.streamlit.app/"
+ st.write(f"App #11: [Enlace]({url})")
+ 
 
 
