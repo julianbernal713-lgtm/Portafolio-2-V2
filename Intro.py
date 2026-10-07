@@ -41,21 +41,21 @@ with col1:
 
 with col2: 
  st.subheader("Datos:preparacion y estructura")
- image = Image.open('OIG8.jpg')
+ image = Image.open('Datos y preparacion.png')
  st.image(image, width=200)
  st.write("En la siguiente veremos una aplicación que usa Data sets para entender, limpiar y estructurar los datos disponibles.") 
  url = "https://programacion-act-4-jdbxkux2k6dmuhb6lbesxh.streamlit.app/"
  st.write(f"App #4: [Enlace]({url})")
 
  st.subheader("App cornare: nivel del agua")
- image = Image.open('data_analisis.png')
+ image = Image.open('nivel agua.png')
  st.image(image, width=190)
  st.write("En la siguiente enlace veremos la app de cornare donde se pueden analizar datos sobre el nivel del agua segun la estacion.") 
  url = "https://prog-act-5-jbq8a3uusg953xty9o7whr.streamlit.app/"
  st.write(f"App # 5: [Enlace]({url})")
 
  st.subheader("Regresion")
- image = Image.open('OIG3.jpg')
+ image = Image.open('regresion.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos la regresion y sus conceptos clave.") 
  url = "https://prog-act-6-iuftpuv6jxtxxwfme75hx2.streamlit.app/"
@@ -70,28 +70,28 @@ st.subheader("KNN Agrosavia")
 
 with col3: 
  st.subheader("Series de tiempo")
- image = Image.open('Chat_pdf.png')
+ image = Image.open('series de tiempo.png')
  st.image(image, width=190)
  st.write("En la siguiente veremos una aplicación que usa series de tiempo.") 
  url = "https://prog-avanzada-act-7-4abkehuwn887pxoprmw8ax.streamlit.app/"
  st.write(f"App #7: [Enlace]({url})")
 
  st.subheader("Pronostico cornare")
- image = Image.open('OIG4.jpg')
+ image = Image.open('calidad aire.png')
  st.image(image, width=200)
  st.write("En el siguiente enlace veremos la app para predecir la calidad del aire.") 
  url = "https://prog-act-8-qubkilwwfvmmqf3yqtd2vu.streamlit.app/"
  st.write(f"App #8: [Enlace]({url})")
  
  st.subheader("Sensasion termica")
- image = Image.open('OIG6.jpg')
+ image = Image.open('sensacion termica.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos el predictor de sensasion termica.") 
  url = "https://prog-act-9-kaujppc44xbqjer5qnwc5c.streamlit.app/"
  st.write(f"App #9: [Enlace]({url})")
 
 st.subheader("Regresion logistica")
- image = Image.open('Chat_pdf.png')
+ image = Image.open('regresion logistica.png')
  st.image(image, width=190)
  st.write("En la siguiente veremos una aplicación de regresion logistica.") 
  url = "https://prog-sesion-11-oj9mtmfymjqfwwqzsuyixg.streamlit.app/"
