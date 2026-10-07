@@ -62,7 +62,7 @@ with col2:
  st.write(f"App #6: [Enlace]({url})")
 
 st.subheader("KNN Agrosavia")
- image = Image.open('OIG4.jpg')
+ image = Image.open('knn.png')
  st.image(image, width=200)
  st.write("En el siguiente enlace veremos la app que explora KNN con datos de suelos de AGROSAVIA.") 
  url = "https://computacion-avanzada-sesion-13-avrj5spayb9r8diappgl8ty.streamlit.app/"
