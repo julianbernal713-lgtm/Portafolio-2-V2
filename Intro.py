@@ -61,6 +61,12 @@ with col2:
  url = "https://prog-act-6-iuftpuv6jxtxxwfme75hx2.streamlit.app/"
  st.write(f"App #6: [Enlace]({url})")
 
+st.subheader("KNN Agrosavia")
+ image = Image.open('OIG4.jpg')
+ st.image(image, width=200)
+ st.write("En el siguiente enlace veremos la app que explora KNN con datos de suelos de AGROSAVIA.") 
+ url = "https://computacion-avanzada-sesion-13-avrj5spayb9r8diappgl8ty.streamlit.app/"
+ st.write(f"App #11: [Enlace]({url})")
 
 with col3: 
  st.subheader("Series de tiempo")
@@ -84,20 +90,15 @@ with col3:
  url = "https://prog-act-9-kaujppc44xbqjer5qnwc5c.streamlit.app/"
  st.write(f"App #9: [Enlace]({url})")
 
-with col4: 
- st.subheader("Regresion logistica")
+st.subheader("Regresion logistica")
  image = Image.open('Chat_pdf.png')
  st.image(image, width=190)
  st.write("En la siguiente veremos una aplicación de regresion logistica.") 
  url = "https://prog-sesion-11-oj9mtmfymjqfwwqzsuyixg.streamlit.app/"
  st.write(f"App #10: [Enlace]({url})")
 
- st.subheader("KNN Agrosavia")
- image = Image.open('OIG4.jpg')
- st.image(image, width=200)
- st.write("En el siguiente enlace veremos la app que explora KNN con datos de suelos de AGROSAVIA.") 
- url = "https://computacion-avanzada-sesion-13-avrj5spayb9r8diappgl8ty.streamlit.app/"
- st.write(f"App #11: [Enlace]({url})")
+
+ 
  
 
 
