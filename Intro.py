@@ -33,9 +33,9 @@ with col1:
  st.write(f"App #2: [Enlace]({url})")
 
  st.subheader("Detector de anomalias")
- image = Image.open('OIG5.jpg')
+ image = Image.open('anomalia.png')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
+ st.write("En la siguiente enlace veremos un detector de anomalias.") 
  url = "https://programacion-avanzada-actividad-3-ipyiwyybco2ednwtk7babr.streamlit.app/"
  st.write(f"App #3: [Enlace]({url})")
 
